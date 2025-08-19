@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-," />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AudioStream Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'primary-red': '#ed3253',
+              'primary-black': '#1f0f2e',
+              'icon-pink': 'rgb(255, 81, 118)',
+              'chart-purple': 'rgb(102, 51, 153)',
+              'border-light': '#ededed',
+              'skeleton-bg': '#ededed',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "recharts": "https://esm.sh/recharts@^3.1.2",
+    "react-hook-form": "https://esm.sh/react-hook-form@^7.62.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.8.1",
+    "@hookform/resolvers/": "https://esm.sh/@hookform/resolvers@^5.2.1/",
+    "yup": "https://esm.sh/yup@^1.7.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "AudioStream Analytics Dashboard",
+  "description": "A dashboard web application to display detailed statistics and analytics for audio content streamed on a digital platform. It allows users to monitor and analyze streaming performance over various time periods and by different publishers.",
+  "requestFramePermissions": []
+}
